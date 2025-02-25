@@ -98,7 +98,8 @@ pip install pynput
   - Improved stability and reliability of the Arduino Leonardo's performance.
   - Enhanced software logic to handle Bluetooth disconnects and reconnects seamlessly.
 - **Note on Previous Versions (Hardware and Software)**: Earlier versions of the project were largely non-functional due to hardware limitations (e.g., Arduino overloads caused by the gyroscope) and design challenges (e.g., high cost of flex sensors). These issues were addressed in this version by simplifying the hardware and focusing on core functionality.
-- **Known Bugs**: (1) The mode does not update while controlling is OFF. This behavior is due to the current implementation prioritizing resource efficiency when control is disabled. A fix is planned for the next version.
+- **Known Bugs**:
+  - The mode does not update while controlling is OFF. This behavior is due to the current implementation prioritizing resource efficiency when control is disabled. A fix is planned for the next version.
 - **TO BE ADDED**: Update the data structure to include the following fields:
   - ARROW SLOW MODE (ON, OFF)
   - FINE ADJUSTMENT MODE (ON, OFF)

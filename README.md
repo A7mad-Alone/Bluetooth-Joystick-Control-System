@@ -160,4 +160,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Thank you for using the Bluetooth Joystick Control System! If you have any questions or suggestions, feel free to open an issue on this repository.
-```

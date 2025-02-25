@@ -103,30 +103,31 @@ pip install pynput
 - **TO BE ADDED**: Update the data structure to include the following fields:
   - ARROW SLOW MODE (ON, OFF)
   - FINE ADJUSTMENT MODE (ON, OFF)
-#### Current Data Structure:
-```
-CONTROLLING STATE (ON, OFF),
-MOUSE CLICK STATE (PRESS, RELEASE),
-CONTROL MODE,
-X MOVEMENT MOUSE,
-Y MOVEMENT MOUSE,
-X DIRECTION ARROW,
-Y DIRECTION ARROW
-```
+  These fields were not included in the initial implementation due to the late-stage design changes. Adding them would require additional buttons or inputs to be added into the hardware design.
+  #### Current Data Structure:
+  ```
+  CONTROLLING STATE (ON, OFF),
+  MOUSE CLICK STATE (PRESS, RELEASE),
+  CONTROL MODE,
+  X MOVEMENT MOUSE,
+  Y MOVEMENT MOUSE,
+  X DIRECTION ARROW,
+  Y DIRECTION ARROW
+  ```
 
-#### Proposed Data Structure:
-```
-CONTROLLING STATE (ON, OFF),
-MOUSE CLICK STATE (PRESS, RELEASE),
-CONTROL MODE,
-X MOVEMENT MOUSE,
-Y MOVEMENT MOUSE,
-X DIRECTION ARROW,
-Y DIRECTION ARROW,
-ARROW SLOW MODE (ON, OFF),
-FINE ADJUSTMENT MODE (ON, OFF)
-```
-These fields were not included in the initial implementation due to the late-stage design changes. Adding them would require additional buttons or inputs to be added into the hardware design.
+  #### Proposed Data Structure:
+  ```
+  CONTROLLING STATE (ON, OFF),
+  MOUSE CLICK STATE (PRESS, RELEASE),
+  CONTROL MODE,
+  X MOVEMENT MOUSE,
+  Y MOVEMENT MOUSE,
+  X DIRECTION ARROW,
+  Y DIRECTION ARROW,
+  ARROW SLOW MODE (ON, OFF),
+  FINE ADJUSTMENT MODE (ON, OFF)
+  ```
+
 ---
 
 ## Notes

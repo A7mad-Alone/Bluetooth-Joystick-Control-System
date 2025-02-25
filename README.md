@@ -100,10 +100,10 @@ pip install pynput
 - **Note on Previous Versions (Hardware and Software)**: Earlier versions of the project were largely non-functional due to hardware limitations (e.g., Arduino overloads caused by the gyroscope) and design challenges (e.g., high cost of flex sensors). These issues were addressed in this version by simplifying the hardware and focusing on core functionality.
 - **Known Bugs**:
   - The mode does not update while controlling is OFF. This behavior is due to the current implementation prioritizing resource efficiency when control is disabled. A fix is planned for the next version.
-- **TO BE ADDED**: Update the data structure to include the following fields:
+- **TO BE ADDED**: Update the data structure to include the following fields: **(These fields were not included in the initial implementation due to the late-stage design changes. Adding them would require additional buttons or inputs to be added into the hardware design)**
     - ARROW SLOW MODE (ON, OFF)
     - FINE ADJUSTMENT MODE (ON, OFF)
-  - These fields were not included in the initial implementation due to the late-stage design changes. Adding them would require additional buttons or inputs to be added into the hardware design.
+      
   #### Current Data Structure:
   ```
   CONTROLLING STATE (ON, OFF),

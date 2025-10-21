@@ -60,9 +60,9 @@ This system is designed specifically for the **Arduino Leonardo**, which has bui
 
 Install the Python libraries using:
 ```bash
-pip install pynput
+pip install pyserial pynput
 ```
-
+ 
 ---
 
 ## Setup Instructions
@@ -152,71 +152,73 @@ pip install pynput
 
 ## Media
 
-All project showcases and demonstrations are located in the `/media` folder.  
-Click any item below to jump to its showcase.
+All project demonstrations and showcases are located in the `/media` folder.  
+Each video thumbnail below is clickable and redirects to the corresponding **YouTube** showcase.
 
-- [Vid 1 – Usage Showcase](#vid-1--usage-showcase)
-- [Vid 2 – GUI Showcase and Normal Usage](#vid-2--gui-showcase-and-normal-usage)
-- [Vid 3 – Hardware Showcase and GUI Reaction](#vid-3--hardware-showcase-and-gui-reaction)
-- [Vid 4 – Presentation Showcase (Slow vs Normal Arrow Keys)](#vid-4--presentation-showcase-slow-vs-normal-arrow-keys)
-- [Vid 5 – GUI Showcase](#vid-5--gui-showcase)
-- [Vid 6 – GUI Focused Showcase (Less Joystick Usage)](#vid-6--gui-focused-showcase-less-joystick-usage)
-- [Pic 7 – Device ON, Mouse Mode](#pic-7--device-on-mouse-mode)
-- [Pic 8 – Device ON, Arrow Keys Mode](#pic-8--device-on-arrow-keys-mode)
+Click any item below to jump directly to its section:
+
+- [Vid 1 – Usage Showcase](#vid-1--usage-showcase)  
+- [Vid 2 – GUI Showcase and Normal Usage](#vid-2--gui-showcase-and-normal-usage)  
+- [Vid 3 – Hardware Showcase and GUI Reaction](#vid-3--hardware-showcase-and-gui-reaction)  
+- [Vid 4 – Presentation Showcase (Slow vs Normal Arrow Keys)](#vid-4--presentation-showcase-slow-vs-normal-arrow-keys)  
+- [Vid 5 – GUI Showcase](#vid-5--gui-showcase)  
+- [Vid 6 – GUI Focused Showcase (Less Joystick Usage)](#vid-6--gui-focused-showcase-less-joystick-usage)  
+- [Pic 7 – Device ON, Mouse Mode](#pic-7--device-on-mouse-mode)  
+- [Pic 8 – Device ON, Arrow Keys Mode](#pic-8--device-on-arrow-keys-mode)  
 - [Pic 9 – Device OFF, Mouse Mode](#pic-9--device-off-mouse-mode)
 
 ---
 
 ### Vid 1 – Usage Showcase
-[▶️ View Video](media/Vid1.mp4)
+[<img src="https://img.youtube.com/vi/CeDSKw75bns/maxresdefault.jpg" width="500">](https://youtube.com/shorts/CeDSKw75bns?feature=share)
 
 ---
 
 ### Vid 2 – GUI Showcase and Normal Usage
-[▶️ View Video](media/Vid2.mp4)
+[<img src="https://img.youtube.com/vi/0Trd5TWSWrs/maxresdefault.jpg" width="500">](https://youtube.com/shorts/0Trd5TWSWrs?feature=share)
 
 ---
 
 ### Vid 3 – Hardware Showcase and GUI Reaction
-[▶️ View Video](media/Vid3.mp4)
+[<img src="https://img.youtube.com/vi/mPm_qDDwzcw/maxresdefault.jpg" width="500">](https://youtube.com/shorts/mPm_qDDwzcw?feature=share)
 
 ---
 
 ### Vid 4 – Presentation Showcase (Slow vs Normal Arrow Keys)
-[▶️ View Video](media/Vid4.mp4)
+[<img src="https://img.youtube.com/vi/yMeXWaSxd0M/maxresdefault.jpg" width="500">](https://youtu.be/yMeXWaSxd0M)
 
 ---
 
 ### Vid 5 – GUI Showcase
-[▶️ View Video](media/Vid5.mp4)
+[<img src="https://img.youtube.com/vi/o86kStwZqwI/maxresdefault.jpg" width="500">](https://youtu.be/o86kStwZqwI)
 
 ---
 
 ### Vid 6 – GUI Focused Showcase (Less Joystick Usage)
-[▶️ View Video](media/Vid6.mp4)
+[<img src="https://img.youtube.com/vi/yVnnJrcHNMg/maxresdefault.jpg" width="500">](https://youtu.be/yVnnJrcHNMg)
 
 ---
 
 ### Pic 7 – Device ON, Mouse Mode
-![Device ON, Mouse Mode](media/Pic7.jpg)
+<img src="media/Pic7.jpg" width="500">
 
 ---
 
 ### Pic 8 – Device ON, Arrow Keys Mode
-![Device ON, Arrow Keys Mode](media/Pic8.jpg)
+<img src="media/Pic8.jpg" width="500">
 
 ---
 
 ### Pic 9 – Device OFF, Mouse Mode
-![Device OFF, Mouse Mode](media/Pic9.jpg)
+<img src="media/Pic9.jpg" width="500">
 
 ---
 
 ## Contributors
 
-* **Ahmad Adham (A7mad_Alone)**
-* **Ali Abdelnasser**
-* **Eslam Mohammed**
+* **[@A7mad-Alone](https://github.com/A7mad-Alone) — Ahmad Adham**
+* **[@Ali7xyz](https://github.com/Ali7xyz) — Ali Abdelnasser**
+* **[@Eslam-Mohammed198](https://github.com/Eslam-Mohammed198) — Eslam Mohammed**
 
 All team members worked together collaboratively on all aspects of the project — hardware, software, testing, and documentation.
 
